@@ -9,6 +9,6 @@
   <title>Welcome to OpenShift</title>
 </head>
 <body>
-<h1>Hello, OpenShift. Have a nice day, <%out.println(new Greeting().getName());%>!</h1>
+<h1>Hello, OpenShift. Have a nice day, <%out.println(new Greeting().getName());%>! <%=request.getServerName() %></h1>
 </body>
 </html>
